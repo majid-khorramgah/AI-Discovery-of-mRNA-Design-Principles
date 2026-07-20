@@ -1,1 +1,46 @@
+============================================================
+Dataset Quality Control
+============================================================
 
+Dataset size:
+(19037, 13)
+
+Columns:
+- Entry
+- Entry_Name
+- Protein_Name
+- Gene_Name
+- Protein_Sequence
+- RefSeq_Protein
+- Ensembl_ID
+- MANE_Transcript
+- Transcript_ID
+- Protein_Accession
+- CDS_length
+- mRNA_length
+- mRNA_Sequence
+
+Missing values:
+Ensembl_ID          93
+MANE_Transcript    649
+dtype: int64
+
+Duplicate Entry IDs:
+0
+
+Protein sequence errors:
+25
+
+mRNA sequence errors:
+0
+
+Length statistics
+          CDS_length    mRNA_length
+count   19037.000000   19037.000000
+mean     1663.289962    1663.289962
+std      1780.149324    1780.149324
+min        78.000000      78.000000
+25%       765.000000     765.000000
+50%      1236.000000    1236.000000
+75%      1980.000000    1980.000000
+max    103053.000000  103053.000000
